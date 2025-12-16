@@ -6,21 +6,16 @@ public class Main {
         System.out.println(r1);
         System.out.println("Area: " + r1.area());
 
-        System.out.println(r2);
-        System.out.println("Perimeter: " + r2.perimeter());
+        System.out.println("-------------------------------");
 
         Book b1 = new Book();
-        Book b2 = new Book("Java", "James", 2018);
-        Book b3 = new Book("OOP", "Smith", 2020);
-        Book b4 = new Book("Java", "James", 2018);
-        Book b5 = new Book("OOP", "Smith", 2020);
-        Book b6 = new Book("Java", "James", 2018);
+        Book b2 = new Book("Java", "Mohammad", 2025);
+        Book b3 = new Book("OOP", "Ali", 2024);
+        Book b4 = new Book("C++", "Abai", 2023);
 
         System.out.println(b2);
         System.out.println(b3);
         System.out.println(b4);
-        System.out.println(b5);
-        System.out.println(b6);
 
 //        Task 3 excution!
         System.out.println("---------------------------------------------------------");
