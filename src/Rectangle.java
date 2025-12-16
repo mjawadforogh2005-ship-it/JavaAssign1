@@ -5,8 +5,8 @@ public class Rectangle {
     private int id;
     static int idGen;
     public Rectangle() {
-        width = 1.0;
-        height = 1.0;
+        width = 5.0;
+        height = 3.0;
         id = ++idGen;
     }
     public Rectangle( double width, double height) {

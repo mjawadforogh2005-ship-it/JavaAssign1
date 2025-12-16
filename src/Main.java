@@ -8,5 +8,27 @@ public class Main {
 
         System.out.println(r2);
         System.out.println("Perimeter: " + r2.perimeter());
+
+        Book b1 = new Book();
+        Book b2 = new Book("Java", "James", 2018);
+        Book b3 = new Book("OOP", "Smith", 2020);
+        Book b4 = new Book("Java", "James", 2018);
+        Book b5 = new Book("OOP", "Smith", 2020);
+        Book b6 = new Book("Java", "James", 2018);
+
+        System.out.println(b2);
+        System.out.println(b3);
+        System.out.println(b4);
+        System.out.println(b5);
+        System.out.println(b6);
+
+//        Task 3 excution!
+        System.out.println("---------------------------------------------------------");
+
+        LibraryApp app = new LibraryApp();
+        app.run();
+
+
+
     }
 }
