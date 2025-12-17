@@ -1,12 +1,16 @@
 public class Main {
+
     public static void main(String[] args) {
+        System.out.println("my first task is here!");
         Rectangle r1 = new Rectangle();
         Rectangle r2 = new Rectangle(4, 6);
 
         System.out.println(r1);
         System.out.println("Area: " + r1.area());
 
+        System.out.println("the seccond task is this:");
         System.out.println("-------------------------------");
+
 
         Book b1 = new Book();
         Book b2 = new Book("Java", "Mohammad", 2025);
