@@ -97,12 +97,10 @@ public class LibraryApp {
                 found = true;
             }
         }
-
         if (!found) {
-            System.out.println("No matching books found.");
+            System.out.println("related books not found.");
         }
     }
-
     private void borrowBook() {
         System.out.print("Enter book id: ");
         int id = scanner.nextInt();
@@ -119,15 +117,12 @@ public class LibraryApp {
                 return;
             }
         }
-
         System.out.println("Book not found.");
     }
-
     private void returnBook() {
         System.out.print("Enter book id: ");
         int id = scanner.nextInt();
         scanner.nextLine();
-
         for (Book b : books) {
             if (b.getId() == id) {
                 if (!b.isAvailable()) {
@@ -139,10 +134,8 @@ public class LibraryApp {
                 return;
             }
         }
-
         System.out.println("Book not found.");
     }
-
     private void deleteBook() {
         System.out.print("Enter book id: ");
         int id = scanner.nextInt();
